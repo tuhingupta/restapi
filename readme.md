@@ -1,9 +1,20 @@
-restapi Project
+# restapi Project
 ====================
 
-This project uses Camel CXF REST API and Active MQ.
-You will see code to GET and POST message to REST APIs.
-When a message is posted to REST API, it is also sent to Active MQ topic.
+This project uses Camel CXF REST API and Active MQ. 
+This project is created to run as a web archive on JBoss EAP server.
+
+It contains all the configurations required to use following components:
+* Camel CXF REST API
+* Apache MQ
+* configuration using Spring XML schema
+* CamelSpringTestSupport Unit testing framework
+
+
+
+See working code to HTTP GET and POST messages to REST APIs.
+
+When a message is posted to REST API, it is also sent to an Active MQ topic.
 
 To build this project:
 
