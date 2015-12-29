@@ -4,6 +4,10 @@ import javax.ws.rs.core.Response;
 
 import org.apache.camel.Exchange;
 
+/**
+ * @author Tuhin Gupta
+ *
+ */
 public class QBean {
 	
 	

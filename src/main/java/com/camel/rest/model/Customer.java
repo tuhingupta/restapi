@@ -4,6 +4,10 @@ import java.io.Serializable;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
+/**
+ * @author Tuhin Gupta
+ *
+ */
 @XmlRootElement(name = "Customer")
 public class Customer implements Serializable{
 	

@@ -5,6 +5,10 @@ import org.apache.camel.Processor;
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
 
+/**
+ * @author Tuhin Gupta
+ *
+ */
 @Component
 public class QConsumeRouteBuilder extends RouteBuilder{
 

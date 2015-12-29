@@ -3,6 +3,10 @@ package com.camel.rest.route;
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
 
+/**
+ * @author Tuhin Gupta
+ *
+ */
 @Component
 public class APIRouteBuilder extends RouteBuilder{
 	

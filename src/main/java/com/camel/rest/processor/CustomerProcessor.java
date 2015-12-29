@@ -10,6 +10,10 @@ import org.slf4j.LoggerFactory;
 
 import com.camel.rest.model.Customer;
 
+/**
+ * @author Tuhin Gupta
+ *
+ */
 public class CustomerProcessor implements Processor {
 	
 	protected Logger log = LoggerFactory.getLogger(getClass());

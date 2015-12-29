@@ -13,6 +13,10 @@ import org.junit.Test;
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+/**
+ * @author Tuhin Gupta
+ *
+ */
 public class RouteBuilderTest  extends CamelSpringTestSupport{
 	
 	/*

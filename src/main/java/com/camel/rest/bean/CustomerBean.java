@@ -9,6 +9,10 @@ import org.apache.camel.Exchange;
 
 import com.camel.rest.model.Customer;
 
+/**
+ * @author Tuhin Gupta
+ *
+ */
 public class CustomerBean {
 	
 	public void getCustomers(Exchange exchange) throws Exception{
